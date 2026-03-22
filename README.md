@@ -159,6 +159,5 @@ Among the evaluated approaches, XGBoost achieved the strongest performance and g
 
 ## Author
 
-Panagiota Machaira
-Student ID: p3210119
+Panagiota Machaira, Student ID: p3210119
 
