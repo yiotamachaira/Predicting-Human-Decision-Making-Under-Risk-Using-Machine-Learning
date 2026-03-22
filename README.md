@@ -18,19 +18,6 @@ bRate - how often people choose Gamble B over Gamble A
 
 ---
 
-## Repository Structure
-
-```
-.
-├── solution.ipynb
-├── assignment_brief.ipynb
-├── c13k_selections.csv
-├── c13k_problems.json
-└── README.md
-```
-
----
-
 ## Dataset Description
 
 ### c13k_selections.csv
@@ -111,41 +98,6 @@ The following models were implemented and compared:
 * Mean Absolute Error (MAE) as the primary metric
 * Root Mean Squared Error (RMSE)
 * R² score
-
----
-
-## Results
-
-### Best Model: XGBoost
-
-| Metric | Cross-Validation | Test Set |
-| ------ | ---------------- | -------- |
-| MAE    | 0.0645           | 0.0621   |
-| RMSE   | 0.0853           | 0.0838   |
-| R²     | 0.8523           | 0.8566   |
-
----
-
-## Feature Importance
-
-The most influential predictors include:
-
-* Dominance relationships between gambles
-* Expected value differences
-* Value-to-risk trade-offs
-* Downside risk measures
-* Gain/loss asymmetry features
-* Ambiguity-related variables
-
-These findings are consistent with behavioral theories of decision-making under risk.
-
----
-
-## Conclusion
-
-The results show that human choice behavior in risky decision problems can be predicted with good accuracy using engineered features and machine learning models.
-
-Among the evaluated approaches, XGBoost achieved the strongest performance and generalized well to unseen data.
 
 ---
 
