@@ -14,7 +14,7 @@ The task combines behavioral science and machine learning to model how people ev
 
 Given two gambles defined by probabilistic outcomes, build a model that predicts:
 
-bRate — how often people choose Gamble B over Gamble A
+bRate - how often people choose Gamble B over Gamble A
 
 ---
 
