@@ -1,4 +1,4 @@
-# Predicting Human Decision-Making Under Risk Using Machine Learning
+# Predicting Human Decision-Making Under Uncertainty Using Machine Learning
 
 ## Overview
 
